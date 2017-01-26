@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringRoleManager.iml" filepath="$PROJECT_DIR$/SpringRoleManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringRoleManagerDatabaseAccess/SpringRoleManagerDatabaseAccess.iml" filepath="$PROJECT_DIR$/SpringRoleManagerDatabaseAccess/SpringRoleManagerDatabaseAccess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringRoleManagerService/SpringRoleManagerService.iml" filepath="$PROJECT_DIR$/SpringRoleManagerService/SpringRoleManagerService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringRoleManagerWeb/SpringRoleManagerWeb.iml" filepath="$PROJECT_DIR$/SpringRoleManagerWeb/SpringRoleManagerWeb.iml" />
+    </modules>
+  </component>
+</project>
