@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1740.569741219963" y="1610.7894210175607">pl.com.mnemonic.controller.ClassifiedAdsController</node>
+    <node x="815.1044344207279" y="852.7838197110067">pl.com.mnemonic.ems.dao.implementation.CategoryAttributeDaoImplementation</node>
+    <node x="245.0" y="1574.013080906655">pl.com.mnemonic.ems.classified.service.implementation.ClassifiedAdsImplementation</node>
+    <node x="1286.0537210373338" y="842.9045115484316">pl.com.mnemonic.ems.dao.interfaces.GenericDaoInterface</node>
+    <node x="723.8675027780623" y="1182.256931608133">pl.com.mnemonic.ems.dao.interfaces.CategoryAttributeDaoInterface</node>
+    <node x="1739.9643512118048" y="1315.786851435408">pl.com.mnemonic.ems.dao.interfaces.AttributeDaoInterface</node>
+    <node x="1053.03" y="1650.013080906655">pl.com.mnemonic.ems.classified.service.interfaces.ClassifiedAdsInterface</node>
+    <node x="875.4423714219294" y="1376.590540723206">pl.com.mnemonic.ems.dao.implementation.ClassifiedadDaoImplementation</node>
+    <node x="1237.2146648579273" y="1362.422647443817">pl.com.mnemonic.ems.dao.interfaces.ClassifiedadDaoInterface</node>
+    <node x="1480.1302544280813" y="1302.390160389095">pl.com.mnemonic.ems.dao.implementation.AttributeDaoImplementation</node>
+    <node x="348.64140480591493" y="1154.9316909604152">pl.com.mnemonic.ems.dao.interfaces.CategoryDaoInterface</node>
+    <node x="768.9294786070825" y="673.2272554541655">pl.com.mnemonic.ems.dao.implementation.CategoryDaoImplementation</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pl.com.mnemonic.ems.classified.service.implementation.ClassifiedAdsImplementation" target="pl.com.mnemonic.ems.classified.service.interfaces.ClassifiedAdsInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.classified.service.implementation.ClassifiedAdsImplementation" target="pl.com.mnemonic.ems.dao.interfaces.CategoryDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.classified.service.implementation.ClassifiedAdsImplementation" target="pl.com.mnemonic.ems.dao.interfaces.ClassifiedadDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.implementation.CategoryDaoImplementation" target="pl.com.mnemonic.ems.dao.interfaces.GenericDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.classified.service.implementation.ClassifiedAdsImplementation" target="pl.com.mnemonic.ems.dao.interfaces.AttributeDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.classified.service.implementation.ClassifiedAdsImplementation" target="pl.com.mnemonic.ems.dao.interfaces.CategoryAttributeDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.controller.ClassifiedAdsController" target="pl.com.mnemonic.ems.classified.service.interfaces.ClassifiedAdsInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.implementation.CategoryAttributeDaoImplementation" target="pl.com.mnemonic.ems.dao.interfaces.CategoryAttributeDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.interfaces.AttributeDaoInterface" target="pl.com.mnemonic.ems.dao.interfaces.GenericDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.implementation.ClassifiedadDaoImplementation" target="pl.com.mnemonic.ems.dao.interfaces.ClassifiedadDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.interfaces.CategoryDaoInterface" target="pl.com.mnemonic.ems.dao.interfaces.GenericDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.implementation.CategoryDaoImplementation" target="pl.com.mnemonic.ems.dao.interfaces.CategoryDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.implementation.CategoryAttributeDaoImplementation" target="pl.com.mnemonic.ems.dao.interfaces.GenericDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.interfaces.ClassifiedadDaoInterface" target="pl.com.mnemonic.ems.dao.interfaces.GenericDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.interfaces.CategoryAttributeDaoInterface" target="pl.com.mnemonic.ems.dao.interfaces.GenericDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.implementation.AttributeDaoImplementation" target="pl.com.mnemonic.ems.dao.interfaces.AttributeDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.implementation.ClassifiedadDaoImplementation" target="pl.com.mnemonic.ems.dao.interfaces.GenericDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.implementation.AttributeDaoImplementation" target="pl.com.mnemonic.ems.dao.interfaces.GenericDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3648010788941335" x="1295.7597042513864" y="1371.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

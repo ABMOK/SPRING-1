@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="171.31914893617017" y="167.1914893617021">pl.com.mnemonic.ems.service.implementation.TenantsServiceImplementation</node>
+    <node x="862.6640070921987" y="170.0">pl.com.mnemonic.ems.service.implementation.EstateServiceImplementation</node>
+    <node x="341.12765957446817" y="1.5319148936170564">pl.com.mnemonic.ems.dao.interfaces.RoleDaoInterface</node>
+    <node x="532.4042553191489" y="-200.80851063829783">pl.com.mnemonic.ems.dao.interfaces.GenericDaoInterface</node>
+    <node x="615.1320921985816" y="168.59574468085106">pl.com.mnemonic.ems.service.implementation.PlaceServiceImplementation</node>
+    <node x="428.95744680851067" y="-74.2978723404255">pl.com.mnemonic.ems.dao.interfaces.UserRoleDaoInterface</node>
+    <node x="563.6595744680851" y="275.36170212765956">pl.com.mnemonic.ems.dao.interfaces.UserDaoInterface</node>
+    <node x="570.0425531914894" y="-5.489361702127667">pl.com.mnemonic.ems.dao.interfaces.PlaceDaoInterface</node>
+    <node x="720.4851654846336" y="-67.2765957446808">pl.com.mnemonic.ems.dao.interfaces.FacilityDaoInterface</node>
+    <node x="885.9426122931443" y="2.936170212765944">pl.com.mnemonic.ems.dao.interfaces.AddressDaoInterface</node>
+    <node x="400.805688534279" y="168.59574468085106">pl.com.mnemonic.ems.classified.service.implementation.UserServiceImplementation</node>
+    <node x="194.40425531914894" y="64.72340425531911">pl.com.mnemonic.ems.dao.interfaces.PlaceUserDaoInterface</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pl.com.mnemonic.ems.classified.service.implementation.UserServiceImplementation" target="pl.com.mnemonic.ems.dao.interfaces.PlaceDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.service.implementation.TenantsServiceImplementation" target="pl.com.mnemonic.ems.dao.interfaces.PlaceUserDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.classified.service.implementation.UserServiceImplementation" target="pl.com.mnemonic.ems.dao.interfaces.UserDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.classified.service.implementation.UserServiceImplementation" target="pl.com.mnemonic.ems.dao.interfaces.UserRoleDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.interfaces.PlaceUserDaoInterface" target="pl.com.mnemonic.ems.dao.interfaces.GenericDaoInterface">
+      <point x="0.0" y="-15.0" />
+      <point x="271.80851063829783" y="-150.80851063829783" />
+      <point x="544.1542553191489" y="-150.80851063829783" />
+      <point x="-58.75" y="15.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.interfaces.AddressDaoInterface" target="pl.com.mnemonic.ems.dao.interfaces.GenericDaoInterface">
+      <point x="0.0" y="-15.0" />
+      <point x="958.8468676122932" y="-149.4042553191489" />
+      <point x="661.6542553191489" y="-150.80851063829783" />
+      <point x="58.75" y="15.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.interfaces.UserRoleDaoInterface" target="pl.com.mnemonic.ems.dao.interfaces.GenericDaoInterface">
+      <point x="0.0" y="-15.0" />
+      <point x="451.90425531914894" y="-130.80851063829783" />
+      <point x="591.1542553191489" y="-130.80851063829783" />
+      <point x="-11.75" y="15.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.service.implementation.PlaceServiceImplementation" target="pl.com.mnemonic.ems.dao.interfaces.FacilityDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.interfaces.PlaceDaoInterface" target="pl.com.mnemonic.ems.dao.interfaces.GenericDaoInterface">
+      <point x="0.0" y="-15.0" />
+      <point x="753.9042553191489" y="-130.80851063829783" />
+      <point x="614.6542553191489" y="-130.80851063829783" />
+      <point x="11.75" y="15.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.interfaces.FacilityDaoInterface" target="pl.com.mnemonic.ems.dao.interfaces.GenericDaoInterface">
+      <point x="0.0" y="-15.0" />
+      <point x="915.8681442080378" y="-140.80851063829783" />
+      <point x="638.1542553191489" y="-140.80851063829783" />
+      <point x="35.25" y="15.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.classified.service.implementation.UserServiceImplementation" target="pl.com.mnemonic.ems.dao.interfaces.PlaceUserDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.service.implementation.PlaceServiceImplementation" target="pl.com.mnemonic.ems.dao.interfaces.PlaceDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.service.implementation.EstateServiceImplementation" target="pl.com.mnemonic.ems.dao.interfaces.FacilityDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.service.implementation.PlaceServiceImplementation" target="pl.com.mnemonic.ems.dao.interfaces.AddressDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.classified.service.implementation.UserServiceImplementation" target="pl.com.mnemonic.ems.dao.interfaces.RoleDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.dao.interfaces.RoleDaoInterface" target="pl.com.mnemonic.ems.dao.interfaces.GenericDaoInterface">
+      <point x="0.0" y="-15.0" />
+      <point x="296.40425531914894" y="-140.80851063829783" />
+      <point x="567.6542553191489" y="-140.80851063829783" />
+      <point x="-35.25" y="15.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.ems.service.implementation.EstateServiceImplementation" target="pl.com.mnemonic.ems.dao.interfaces.AddressDaoInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7121212121212122" x="584.0" y="100.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

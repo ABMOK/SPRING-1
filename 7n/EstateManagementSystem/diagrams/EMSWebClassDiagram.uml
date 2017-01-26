@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="969.8411643026005" y="-3.2671394799054383">pl.com.mnemonic.ems.service.interfaces.MediaServiceInterface</node>
+    <node x="726.9169621749407" y="196.5791962174941">pl.com.mnemonic.controller.PlaceUsersController</node>
+    <node x="310.3782505910166" y="194.9456264775414">pl.com.mnemonic.controller.EstateController</node>
+    <node x="578.3782505910166" y="194.9456264775414">pl.com.mnemonic.controller.PlaceController</node>
+    <node x="1139.8411643026006" y="-3.2671394799054383">pl.com.mnemonic.ems.service.interfaces.ExpenseServiceInterface</node>
+    <node x="448.3782505910166" y="194.9456264775414">pl.com.mnemonic.controller.UserController</node>
+    <node x="361.66858747044915" y="-11.434988179669006">pl.com.mnemonic.ems.service.interfaces.PlaceServiceInterface</node>
+    <node x="163.52253250591014" y="-9.801418439716315">pl.com.mnemonic.ems.service.interfaces.EstateServiceInterface</node>
+    <node x="797.8411643026005" y="-3.2671394799054383">pl.com.mnemonic.ems.service.interfaces.ReportServiceInterface</node>
+    <node x="632.7418735224584" y="-55.54137115839245">pl.com.mnemonic.ems.service.interfaces.FinanceServiceInterface</node>
+    <node x="598.0314716312057" y="-229.78250591016553">pl.com.mnemonic.controller.FinanceController</node>
+    <node x="534.6685874704491" y="-9.801418439716258">pl.com.mnemonic.ems.service.interfaces.TenantsServiceInterface</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pl.com.mnemonic.controller.FinanceController" target="pl.com.mnemonic.ems.service.interfaces.PlaceServiceInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.controller.PlaceUsersController" target="pl.com.mnemonic.ems.service.interfaces.TenantsServiceInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.controller.FinanceController" target="pl.com.mnemonic.ems.service.interfaces.ExpenseServiceInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.controller.FinanceController" target="pl.com.mnemonic.ems.service.interfaces.FinanceServiceInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.controller.PlaceController" target="pl.com.mnemonic.ems.service.interfaces.EstateServiceInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.controller.PlaceUsersController" target="pl.com.mnemonic.ems.service.interfaces.FinanceServiceInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.controller.EstateController" target="pl.com.mnemonic.ems.service.interfaces.EstateServiceInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.controller.PlaceController" target="pl.com.mnemonic.ems.service.interfaces.PlaceServiceInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.controller.UserController" target="pl.com.mnemonic.ems.service.interfaces.EstateServiceInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.controller.FinanceController" target="pl.com.mnemonic.ems.service.interfaces.ReportServiceInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.controller.FinanceController" target="pl.com.mnemonic.ems.service.interfaces.EstateServiceInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.controller.PlaceUsersController" target="pl.com.mnemonic.ems.service.interfaces.PlaceServiceInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.com.mnemonic.controller.FinanceController" target="pl.com.mnemonic.ems.service.interfaces.MediaServiceInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7318339100346021" x="731.0" y="-1.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
