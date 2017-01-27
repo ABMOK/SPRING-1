@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="SpringRoleManagerWeb:war">
-    <output-path>$PROJECT_DIR$/SpringRoleManagerWeb/target</output-path>
-    <root id="archive" name="SpringRoleManagerWeb-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="SpringRoleManagerWeb:war exploded" />
-    </root>
-  </artifact>
-</component>
